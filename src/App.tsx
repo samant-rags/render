@@ -1,6 +1,9 @@
 import { PanelData } from "@grafana/data";
 import { Component } from "react";
-import { Dummy } from "./components/Dummy";
+import { Header } from "./components/Header";
+import { MainContent } from "./components/MainContent";
+import { Footer } from "./components/Footer";
+import { FetchNews } from "./components/FetchNews";
 
 interface State {
   data: PanelData;
@@ -30,7 +33,10 @@ export class App extends Component<unknown, State> {
     return (
       <div>
         Value: {value ?? "No data"}
-        <Dummy />
+        <FetchNews />
+        <Header />
+        <MainContent />
+        <Footer />
       </div>
     );
   }

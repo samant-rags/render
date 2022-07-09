@@ -1,3 +1,3 @@
 export function Dummy() {
-  return <div>Dummy</div>;
+  return <div> Dummy Component </div>;
 }

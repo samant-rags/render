@@ -19,7 +19,7 @@
     "validate": "run-s typecheck lint"
   },
   "devDependencies": {
-    "@grafana/data": "^9.0.2",
+    "@grafana/data": "^8.2.7",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -48,5 +48,8 @@
     "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.4",
     "vite": "^2.9.14"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
